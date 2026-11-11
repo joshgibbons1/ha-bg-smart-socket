@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add a BG smart socket",
+        "description": "Enter the IP address of a socket that is already on your wifi. A DHCP reservation is recommended.",
+        "data": {
+          "host": "IP address",
+          "name": "Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect to a socket at that address.",
+      "unsupported": "The device at that address is not a supported BG smart socket."
+    },
+    "abort": {
+      "already_configured": "This socket is already set up."
+    }
+  }
+}
