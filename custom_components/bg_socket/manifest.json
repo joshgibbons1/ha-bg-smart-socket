@@ -2,7 +2,7 @@
   "domain": "bg_socket",
   "name": "BG Smart Socket",
   "categories": [
-    "plugs_switches",
+    "plugs_switches"
   ],
   "codeowners": ["@joshgibbons1"],
   "config_flow": true,
